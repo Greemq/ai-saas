@@ -7,7 +7,7 @@ import {NextResponse} from "next/server";
 // export default authMiddleware({
 //   publicRoutes: ["/", "/api/webhook"],
 // });
-export default function middleware(req, ev) {
+export default function middleware() {
     return NextResponse.next();
 }
 
